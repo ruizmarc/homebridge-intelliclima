@@ -1,16 +1,16 @@
 {
   "private": true,
-  "displayName": "Plugin Name",
-  "name": "homebridge-plugin-name",
+  "displayName": "IntelliClima Homebridge",
+  "name": "homebridge-intelliclima",
   "version": "1.0.0",
-  "description": "A short description about what your plugin does.",
+  "description": "A homebridge plugin for IntelliClima App from Fantini Cosmi.",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME.git"
+    "url": "https://github.com/ruizmarc/homebridge-intelliclima.git"
   },
   "bugs": {
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME/issues"
+    "url": "https://github.com/ruizmarc/homebridge-intelliclima/issues"
   },
   "engines": {
     "node": "^18.17.0 || ^20.9.0",
@@ -24,7 +24,10 @@
     "prepublishOnly": "npm run lint && npm run build"
   },
   "keywords": [
-    "homebridge-plugin"
+    "homebridge-plugin",
+    "homebridge-intelliclima",
+    "intelliclima",
+    "fantini cosmi"
   ],
   "dependencies": {},
   "devDependencies": {

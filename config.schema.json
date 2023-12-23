@@ -1,5 +1,5 @@
 {
-  "pluginAlias": "ExampleHomebridgePlugin",
+  "pluginAlias": "IntelliClima Homebridge",
   "pluginType": "platform",
   "singular": true,
   "schema": {
