@@ -1,3 +1,7 @@
+<p align="center">
+   <a href="https://github.com/ruizmarc/homebridge-intelliclima"><img alt="Homebridge IntelliClima" src="https://github.com/ruizmarc/homebridge-intelliclima/assets/5717082/267ea081-2be2-4712-bb89-48d750124f3f" width="600px"></a>
+</p>
+
 <span align="center">
 
 # IntelliClima Homebridge
