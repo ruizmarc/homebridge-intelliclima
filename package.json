@@ -1,13 +1,14 @@
 {
-  "private": true,
   "displayName": "IntelliClima Homebridge",
   "name": "homebridge-intelliclima",
   "version": "1.0.0",
   "description": "A homebridge plugin for IntelliClima App from Fantini Cosmi.",
+  "homepage": "https://github.com/ruizmarc/homebridge-intelliclima#readme",
   "license": "Apache-2.0",
+  "author": "ruizmarc",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ruizmarc/homebridge-intelliclima.git"
+    "url": "git+https://github.com/ruizmarc/homebridge-intelliclima.git"
   },
   "bugs": {
     "url": "https://github.com/ruizmarc/homebridge-intelliclima/issues"
@@ -27,9 +28,18 @@
     "homebridge-plugin",
     "homebridge-intelliclima",
     "intelliclima",
-    "fantini cosmi"
+    "fantini cosmi",
+    "C800"
   ],
-  "dependencies": {},
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/ruizmarc"
+    }
+  ],
+  "dependencies": {
+    "axios": "^1.6.2"
+  },
   "devDependencies": {
     "@types/node": "^18.16.20",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
