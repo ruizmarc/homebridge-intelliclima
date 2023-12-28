@@ -5,11 +5,31 @@
   "schema": {
     "type": "object",
     "properties": {
-      "name": {
-        "title": "Name",
+      "username": {
+        "title": "IntelliClima username",
         "type": "string",
-        "required": true,
-        "default": "Example Dynamic Platform"
+        "description": "The plugin needs to access IntelliClima API to interact with the device so it will be using your credentials to authenticate",
+        "required": true
+      },
+      "password": {
+        "title": "IntelliClima password",
+        "type": "string",
+        "description": "Your password will not be shared, it will be only used it to authenticate with IntelliClima API",
+        "required": true
+      },
+      "temperatureSensor": {
+        "title": "Create extra temperature sensor",
+        "type": "boolean",
+        "default": false,
+        "description": "This enables extra temperature sensor to use with automations in HomeKit app.",
+        "required": false
+      },
+      "humiditySensor": {
+        "title": "Create extra humidity sensor",
+        "type": "boolean",
+        "default": false,
+        "description": "This enables extra humidity sensor to use with automations in HomeKit app.",
+        "required": false
       }
     }
   }
