@@ -1,7 +1,7 @@
 {
   "displayName": "IntelliClima Homebridge",
   "name": "homebridge-intelliclima",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A homebridge plugin for IntelliClima App from Fantini Cosmi.",
   "homepage": "https://github.com/ruizmarc/homebridge-intelliclima#readme",
   "license": "Apache-2.0",
