@@ -6,7 +6,7 @@
 
 # IntelliClima Homebridge
 
-<!-- [![verified-by-homebridge](https://badgen.net/badge/homebridge/verified/purple)](https://github.com/homebridge/homebridge/wiki/Verified-Plugins) -->
+[![verified-by-homebridge](https://badgen.net/badge/homebridge/verified/purple)](https://github.com/homebridge/homebridge/wiki/Verified-Plugins)
 [![npm](https://img.shields.io/npm/dt/homebridge-intelliclima
 )](https://www.npmjs.com/package/homebridge-intelliclima)
 [![npm](https://img.shields.io/npm/v/homebridge-intelliclima
