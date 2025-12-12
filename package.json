@@ -1,7 +1,7 @@
 {
   "displayName": "IntelliClima Homebridge",
   "name": "homebridge-intelliclima",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A homebridge plugin for IntelliClima App from Fantini Cosmi.",
   "homepage": "https://github.com/ruizmarc/homebridge-intelliclima#readme",
   "license": "Apache-2.0",
@@ -14,7 +14,7 @@
     "url": "https://github.com/ruizmarc/homebridge-intelliclima/issues"
   },
   "engines": {
-    "node": "^18.17.0 || ^20.9.0 || ^22.0.0",
+    "node": "^18.17.0 || ^20.9.0 || ^22.0.0 || ^24.0.0",
     "homebridge": "^1.6.0 || ^2.0.0-beta.0"
   },
   "main": "dist/index.js",
@@ -38,18 +38,18 @@
     }
   ],
   "dependencies": {
-    "axios": "^1.7.9"
+    "axios": "^1.13.2"
   },
   "devDependencies": {
-    "@eslint/js": "^9.14.0",
+    "@eslint/js": "^9.39.1",
     "@types/eslint__js": "^8.42.3",
-    "@types/node": "^22.13.4",
-    "eslint": "^9.14.0",
-    "homebridge": "^1.9.0",
-    "nodemon": "^3.1.9",
-    "rimraf": "^6.0.1",
+    "@types/node": "^24.1.0",
+    "eslint": "^9.39.1",
+    "homebridge": "^1.11.1",
+    "nodemon": "^3.1.11",
+    "rimraf": "^6.1.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.3",
-    "typescript-eslint": "^8.12.2"
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.49.0"
   }
 }
